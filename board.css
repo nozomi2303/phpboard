@@ -1,0 +1,91 @@
+body{ text-align:center;
+      font-family: Quicksand, 游ゴシック体, YuGothic, 'ヒラギノ角ゴシック Pro',メイリオ, Meiryo,'ＭＳ Ｐゴシック', sans-serif;
+       background-image:url(https://minban-image.s3.ap-northeast-1.amazonaws.com/curry-illust.png);
+       background-size:700px;
+       background-repeat:no-repeat;
+       background-attachment:fixed;
+       background-position:right bottom;
+}
+
+
+.intro { background-color: rgba(255,255,255,0.7);
+	  display:inline-block;
+          border-color: #ffcc66;
+          border-style:solid;
+          border-width:10px;
+          border-radius:10px;
+          padding:20px;
+ }
+
+/* login2 {padding-top:20px;  } */
+
+.error-box { width:100%;
+	     display:flex;
+ 
+}
+
+.blankbox, .error { width:50%;
+ }
+
+.error {color:red;
+        font-size:10px;
+       }
+
+label {display:flex;
+       align-items:center;
+       justify-content:space-between;
+       margin-bottom:10px;
+       width:310px;
+       flex-wrap: wrap;
+}
+
+.label-text{
+       min-width:100px;
+       text-align:right;
+}
+
+
+.float{
+     float:none;}
+
+.join { appearance:none;
+	border: 0;
+	border-radius:5px;
+	background: #ffffff;
+	color:#000000;
+	padding:8px 16px;
+	font-size:16px;
+	font-family:inherit;
+	padding-right:10px;
+	padding-left:10px;
+
+}
+
+.myname {font-weight:bold;
+         font-size:20px;
+      }
+
+.textarea{ vertical-align: top;
+        margin-right: 5px;
+}
+
+.toukou1{ background-color: rgba(255,255,255,0.7);
+	  display:inline-block;
+          border-color: #ffcc66;
+          border-style:solid;
+          border-width:10px;
+	  border-radius:10px;
+	  padding:70px;
+}
+
+.toukou2{ background-color:rgba(255,204,102,0.9);
+	  display:inline-block;
+          border-radius:10px;
+	  margin-top:50px;
+          padding:60px;
+}
+
+.name{ font-weight:bold;
+
+}
+
