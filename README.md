@@ -44,12 +44,12 @@
 ![新規会員登録3](https://github.com/nozomi2303/phpboard/assets/129904330/6615fc4b-f188-48a3-b186-088def1f266b)  
 
 - また、既に登録済みのメールアドレスを入力するとエラーになります。
-![新規会員登録4]([register-error3.png](https://github.com/nozomi2303/phpboard/assets/129904330/2a12b8ff-1bdc-4cab-af2b-fd27414a27a7))  
+![新規会員登録4](https://github.com/nozomi2303/phpboard/assets/129904330/2a12b8ff-1bdc-4cab-af2b-fd27414a27a7)  
 
 - ユーザー登録確認画面です。登録する内容に問題が無ければ、そのまま登録するボタンを押します。パスワードは表示しません。
 ![確認](https://github.com/nozomi2303/phpboard/assets/129904330/2ce2782d-0fea-4546-b746-7151a6731c07)
 
-- もし入力内容に間違いがある場合は、修正ボタンを押して戻ることができます。入力した内容が残っている仕様です（index.php?action=rewrite）。
+- もし入力内容に間違いがある場合は、修正ボタンを押して戻ることができます。入力した内容が残っている仕様です（register.php?action=rewrite）。
 ![確認2](https://github.com/nozomi2303/phpboard/assets/129904330/f67d9f19-0bb9-4031-85af-49a532086268)
 
 - 無事に会員登録が完了するとサンクスページに飛びます。
