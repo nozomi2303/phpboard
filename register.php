@@ -1,9 +1,4 @@
 <?php
-// エラーを出力する
-ini_set( 'display_errors', 1 );
-?>
-
-<?php
 session_start();
 require('dbconnect.php');
 
@@ -136,14 +131,18 @@ if (!empty($_POST) ){
 	  <?php endif; ?>
           </div>
      </label>
+
 <br>
       <input type="submit" value="確認する" class="button">
+
     </form>
 
 <br>
+
      <a href="index.php">ログイン画面に戻る</a>
 
 </section>
+
 <br>
 
 </body>

@@ -41,7 +41,8 @@ if (isset($_SESSION['id']) && $_SESSION['time'] + 3600 > time()) {
 
 <br>
 
-    <p><a href="mypage.php">マイページへ戻る</a></p>
+  <p><a href="mypage.php">マイページへ戻る</a></p>
+
 </section>
 
 </body>

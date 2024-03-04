@@ -35,16 +35,23 @@ if (!empty($_POST)){
 
 <h1>みんなの晩ごはん</h1>
 
-<p class="intro">今日の晩ごはんどうしようかな？<br>
+<p class="intro">
+<br>
+今日の晩ごはんどうしようかな？<br>
 そんな悩みから解放されましょう！<br>
 みんなで今日の晩御飯をつぶやいてお互いの参考にしたり<br>
 先週何食べたかな？とマイページから確認も出来ます！<br>
-みんなで今日の晩ごはんを呟く気軽な掲示板です。</p>
+みんなで今日の晩ごはんを呟く気軽な掲示板です。
+<br>
+</p>
+
 <br>
 
 <section class="toukou2">
 
 <h2>会員の方はこちらから</h2>
+
+<br>
 
 <form action="" method="post">
 
@@ -86,14 +93,19 @@ if (!empty($_POST)){
       </div>
 </label>
 <br>
+
 <div class="login2">
        <input type="submit" value="ログインする" class="button">
 </div>
+
 </form>
 
 <br>
 
 <h2>はじめましての方はこちらから</h2>
+
+<br>
+
        <a href="register.php" class="join">新規会員登録する</a>
 
 </section>
