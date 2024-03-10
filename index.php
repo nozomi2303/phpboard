@@ -58,7 +58,7 @@ if (!empty($_POST)){
 
 <label>
     <span class="label-text">E-mail</span>
-      <input type="text" name="email" style="width:150px"
+      <input type="email" name="email" style="width:150px"
        value="<?php echo htmlspecialchars($_POST['email']??"", ENT_QUOTES); ?>">
       <div class="error-box">
        <?php if (isset($error['login']) && ($error['login'] =='blank')): ?>

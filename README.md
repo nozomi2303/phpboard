@@ -46,6 +46,9 @@
 - また、既に登録済みのメールアドレスを入力するとエラーになります。
 ![新規会員登録4](https://github.com/nozomi2303/phpboard/assets/129904330/2a12b8ff-1bdc-4cab-af2b-fd27414a27a7)  
 
+- @マークを記入しない場合もエラーとなります。  
+![新規会員登録5](https://github.com/nozomi2303/phpboard/assets/129904330/b66b5fc6-485e-4a31-adf5-2f91d1646184)  
+
 - ユーザー登録確認画面です。登録する内容に問題が無ければ、そのまま登録するボタンを押します。パスワードは表示しません。
 ![確認](https://github.com/nozomi2303/phpboard/assets/129904330/2ce2782d-0fea-4546-b746-7151a6731c07)
 
@@ -63,6 +66,9 @@
 ![ログイン1](https://github.com/nozomi2303/phpboard/assets/129904330/c6d2b9a9-7522-4616-9e59-499d496aa497)
 - メールアドレスやパスワードが異なる場合もエラーが出ます。
 ![ログイン2](https://github.com/nozomi2303/phpboard/assets/129904330/5ff4e7ed-42ac-4965-b16f-6557744247cb)
+- @マークを記入しない場合もエラーとなります。
+![ログイン3](https://github.com/nozomi2303/phpboard/assets/129904330/b66b5fc6-485e-4a31-adf5-2f91d1646184)  
+
 
 ### 【投稿画面】  
 
